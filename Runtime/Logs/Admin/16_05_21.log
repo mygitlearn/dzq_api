@@ -1,0 +1,1244 @@
+[ 2016-05-21T22:05:28+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003526s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+
+[ 2016-05-21T22:05:28+08:00 ] ::1 /dzq_api/index.php/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002666s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000866s ]
+NOTIC: [8] Undefined variable: msg D:\wamp\www\dzq_api\Runtime\Cache\Admin\3c5566b2bfbf6ef00ac5366ba47246fe.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003394s ]
+
+[ 2016-05-21T22:05:29+08:00 ] ::1 /dzq_api/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003823s ]
+
+[ 2016-05-21T22:05:36+08:00 ] ::1 /dzq_api/index.php/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003016s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0391s ]
+SQL: SELECT `password` FROM `admin` WHERE `account` = '123456' AND `status` = 1 LIMIT 1   [ RunTime:0.0238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004536s ]
+
+[ 2016-05-21T22:05:37+08:00 ] ::1 /dzq_api/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003335s ]
+
+[ 2016-05-21T22:05:46+08:00 ] ::1 /dzq_api/index.php/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003486s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0251s ]
+SQL: SELECT `password` FROM `admin` WHERE `account` = '123456' AND `status` = 1 LIMIT 1   [ RunTime:0.0234s ]
+
+[ 2016-05-21T22:05:47+08:00 ] ::1 /dzq_api/index.php/Admin/Public/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003315s ]
+SQL: SHOW COLUMNS FROM `introduce` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `introduce` LIMIT 1   [ RunTime:0.0198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000955s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003462s ]
+
+[ 2016-05-21T22:30:37+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002846s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `music` [ RunTime:0.0432s ]
+SQL: SELECT m.m_id,`m_name`,`m_avatar`,`m_author`,`m_player`,`m_viewer_count`,`m_good_count`,`ca_type` FROM music m INNER JOIN category as c on m.m_type=c.ca_id  ORDER BY m.m_id desc LIMIT 0,10   [ RunTime:0.0274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music` LIMIT 1   [ RunTime:0.0287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000603s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001478s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011384s ]
+
+[ 2016-05-21T22:30:41+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007798s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0528s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000776s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001572s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 168 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012847s ]
+
+[ 2016-05-21T22:36:06+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000228s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0241s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000873s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001594s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015379s ]
+
+[ 2016-05-21T22:36:31+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0211s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000967s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002573s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005504s ]
+
+[ 2016-05-21T22:37:09+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006968s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0259s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000762s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001323s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004119s ]
+
+[ 2016-05-21T22:39:46+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003103s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0276s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000849s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001593s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008251s ]
+
+[ 2016-05-21T22:46:00+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000312s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002614s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0236s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002750s ]
+
+[ 2016-05-21T22:46:09+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002956s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2016-05-21T22:46:18+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002751s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2016-05-21T22:47:17+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003144s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.5156s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0196s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000777s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001401s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012282s ]
+
+[ 2016-05-21T22:47:28+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006457s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0227s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000930s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001532s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006726s ]
+
+[ 2016-05-21T22:47:45+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004387s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\dzq_api\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003161s ]
+
+[ 2016-05-21T22:49:02+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003505s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\dzq_api\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002885s ]
+
+[ 2016-05-21T22:49:04+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002857s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0189s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002551s ]
+
+[ 2016-05-21T22:49:08+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\dzq_api\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2016-05-21T22:49:14+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004596s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0217s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000874s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001696s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011322s ]
+
+[ 2016-05-21T22:49:16+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000519s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001981s ]
+
+[ 2016-05-21T22:49:28+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004345s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\dzq_api\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006859s ]
+
+[ 2016-05-21T22:49:48+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005514s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0203s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000729s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001814s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016199s ]
+
+[ 2016-05-21T22:49:51+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005643s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\dzq_api\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005448s ]
+
+[ 2016-05-21T22:49:56+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004804s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0214s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000946s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001855s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009057s ]
+
+[ 2016-05-21T22:49:59+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007027s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0233s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000621s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001225s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014556s ]
+
+[ 2016-05-21T22:50:12+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003097s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\dzq_api\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009789s ]
+
+[ 2016-05-21T22:52:36+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003597s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\dzq_api\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003022s ]
+
+[ 2016-05-21T22:52:38+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003713s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0228s ]
+SQL: SELECT `ca_id`,`ca_type` FROM `category`  [ RunTime:0.0216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000880s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001598s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 150 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 157 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 158 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 159 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 160 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 163 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 169 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\dzq_api\Runtime\Cache\Admin\1bb19c55b7f5ea0e7060eb93f73f2a57.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006347s ]
+
+[ 2016-05-21T22:52:41+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008469s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\dzq_api\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004457s ]
+
+[ 2016-05-21T22:53:12+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008612s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002880s ]
+
+[ 2016-05-21T22:54:00+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004607s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\dzq_api\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002534s ]
+

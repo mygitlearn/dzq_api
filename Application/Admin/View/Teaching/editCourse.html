@@ -1,0 +1,26 @@
+<extend name="Public/base" />
+<block name="style">
+    <link type="text/css" rel="stylesheet" href="__CSS__/editCourse.css" />
+</block>
+<block name="content">
+
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header"><h3>添加授课</h3></div>
+            <input type="submit" form="editForm" class="btn-flat success pull-right" value="确定提交" />
+            <input type="hidden" form="editForm" name="id" value="{$list.id}" />
+            <form action="{:U('saveCourse')}" method="post" id="editForm">
+                <div class="field-box">
+                    <label style="float: left">授课标题:</label>
+                    <input type="text" name="title" id="title" value="{$list.title}"/>
+                </div>
+                <div id="editUe">
+                    <textarea id="myEditor" name="news_content" style="width:100%;min-height:80%;float:left;">{$list.content}</textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+</block>
+<block name="script">
+    <script type="text/javascript" src="__JS__/admin/editCourse.js"></script>
+</block>

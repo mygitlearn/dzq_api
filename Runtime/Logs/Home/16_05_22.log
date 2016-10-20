@@ -1,0 +1,47 @@
+[ 2016-05-22T16:55:30+08:00 ] ::1 /dzq_api/index.php/Home/score/music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001707s ]
+
+[ 2016-05-22T16:55:53+08:00 ] ::1 /dzq_api/index.php/Home/score/music?m_id=50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002257s ]
+
+[ 2016-05-22T16:56:01+08:00 ] ::1 /dzq_api/index.php/Home/score/music?m_id=50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001951s ]
+
+[ 2016-05-22T16:56:43+08:00 ] ::1 /dzq_api/index.php/Home/score/music?m_id=50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001837s ]
+
+[ 2016-05-22T16:56:59+08:00 ] ::1 /dzq_api/index.php/Home/score/music?m_id=51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002044s ]
+
+[ 2016-05-22T16:57:46+08:00 ] ::1 /dzq_api/index.php/Home/score/music?m_id=51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001798s ]
+
+[ 2016-05-22T16:57:56+08:00 ] ::1 /dzq_api/index.php/Home/score/music?m_id=51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001804s ]
+
+[ 2016-05-22T18:01:58+08:00 ] ::1 /dzq_api/index.php/Spectrum/show/id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001852s ]
+ERR: 无法加载控制器:Spectrum
+
+[ 2016-05-22T18:03:07+08:00 ] ::1 /dzq_api/index.php/Spectrum/show/id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002447s ]
+ERR: 无法加载控制器:Spectrum
+

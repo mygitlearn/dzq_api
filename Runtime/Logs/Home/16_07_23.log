@@ -1,0 +1,10 @@
+[ 2016-07-23T15:35:02+08:00 ] ::1 /dzq_api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+
+[ 2016-07-23T17:18:49+08:00 ] ::1 /dzq_api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+

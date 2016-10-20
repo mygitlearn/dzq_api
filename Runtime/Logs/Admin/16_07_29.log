@@ -1,0 +1,184 @@
+[ 2016-07-29T11:29:01+08:00 ] ::1 /dzq_api/index.php/admin/public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: msg D:\wamp\www\dzq_api\Runtime\Cache\Admin\3c5566b2bfbf6ef00ac5366ba47246fe.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2016-07-29T11:29:01+08:00 ] ::1 /dzq_api/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2016-07-29T11:29:10+08:00 ] ::1 /dzq_api/index.php/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.2333s ]
+SQL: SELECT `password` FROM `admin` WHERE `account` = '123456' AND `status` = 1 LIMIT 1   [ RunTime:0.0752s ]
+
+[ 2016-07-29T11:29:11+08:00 ] ::1 /dzq_api/index.php/Admin/Public/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `introduce` [ RunTime:0.0790s ]
+SQL: SELECT * FROM `introduce` LIMIT 1   [ RunTime:0.1654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-07-29T11:29:15+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0532s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.1588s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0596s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2016-07-29T11:29:18+08:00 ] ::1 /dzq_api/index.php/Admin/User/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1010s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 32 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 39 行.
+SQL: SELECT * FROM `user` WHERE `status` = 1 LIMIT 0,10   [ RunTime:0.0385s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-07-29T15:46:13+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0239s ]
+SQL: SELECT `ca_id`,`ca_type`,`ca_count`,`ca_cover_img` FROM `category` ORDER BY ca_id asc LIMIT 0,10   [ RunTime:0.0223s ]
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant ca_cover_img - assumed 'ca_cover_img' D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-07-29T15:46:16+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0185s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+

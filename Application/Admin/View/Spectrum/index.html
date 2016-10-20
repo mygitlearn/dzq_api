@@ -1,0 +1,75 @@
+<extend name="Public/base" />
+<block name="style">
+    <link rel="stylesheet" type="text/css" href="__CSS__/spectrumIndex.css" />
+</block>
+<block name="content">
+    <div id="demo">
+        <form action="{:U('addType')}" method="post" enctype="multipart/form-data">
+        <div id="left">
+            <input type="file" name="upImg" id="upImg">
+            <div id="img">
+                <img id="showImg" src="{$imgUrl}">
+                <input type="hidden" id="default_img" value="{$imgUrl}"/>
+            </div>
+        </div>
+        <div id="right">
+            <span class="icon-remove close_demo"></span><br/>
+            <input id="inp" type="text" name="typeName" placeholder="类名称" value=""><br/>
+            <div id="tijiao">提交</div>
+            <input type="submit" id="sub" style="display: none" />
+            <input type="hidden" id="code" name="code" value="" />
+        </div>
+        </form>
+    </div>
+
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header">
+                <h3>谱库类别</h3>
+                <div class="span10 pull-right">
+                    <input type="text" class="span5 search" placeholder="请输入类别名" value="<?php echo session('searchCondition')?>"/>
+
+                    <button class="btn-flat success pull-right"><span>&#43;</span>添加类别</button>
+                </div>
+            </div>
+
+            <!-- Users table -->
+            <div class="row-fluid table">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th class="span4 sortable">类名</th>
+                        <th class="span3 sortable"><span class="line"></span>音乐/首</th>
+                        <th class="span2 sortable align-right"><span class="line"></span>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="list" id="vo">
+                        <tr>
+                            <td>
+                                <img src="{$vo.ca_cover_img}" class="img-circle avatar hidden-phone" style="width: 45px;height: 45px;"/>
+                                <span style="line-height: 3"> {$vo.ca_type}</span>
+                            </td>
+                            <td>{$vo.ca_count}</td>
+                            <td class="align-right">
+                                <a href="#" class="revise" value="{$vo.ca_id}" style="color: green">编辑</a> |
+                                <a href="{:U('Spectrum/changeStatus?i=1&id='.$vo['ca_id'])}" style="color: red">删除</a>
+                            </td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+            </div>
+            <input type="hidden" id="url" value="{:U()}" />
+            <div class="pagination pull-right">
+                {$_page}
+            </div>
+            <!-- end users table -->
+        </div>
+    </div>
+</block>
+
+
+<block name="script">
+    <script type="text/javascript" src="__JS__/admin/Spectrum.js"></script>
+</block>

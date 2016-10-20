@@ -1,0 +1,42 @@
+#email{
+    border-top:0 none;
+    border-left:0 none;
+    border-right:0 none;
+    border-bottom:1px solid #d0dde9;
+    box-shadow: none;
+}
+.avatar{
+    width: 113px;
+    height: 113px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#upFile{
+    width: 65px;
+    box-shadow: none;
+    border: 0 none;
+    margin-left: 25px;
+    opacity: 0;
+}
+#fileBox{
+    width: 120px;
+    height: 120px;
+    border-radius: 56px;
+    overflow: hidden;
+}
+.avatar{
+    margin-bottom: 0 !important;
+}
+#error{
+    height: 50px;
+    color: red;
+    text-align: center
+}
+#error_child{
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}

@@ -1,0 +1,99 @@
+<extend name="Public/base" />
+<block name="style">
+    <link rel="stylesheet" href="__STATIC__/mstp/css/compiled/personal-info.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="__CSS__/myInfo.css" type="text/css" media="screen" />
+</block>
+<block name="content">
+    <!-- edit form column -->
+    <!-- main container .wide-content is used for this layout without sidebar :)  -->
+    <div class="content wide-content">
+        <div class="container-fluid">
+            <div class="settings-wrapper" id="pad-wrapper" style="margin-top: 0">
+                <div id="error">{$error}</div>
+                <!-- avatar column -->
+                <div class="span3 avatar-box" style="width: 150px;">
+                    <div class="personal-image" >
+                        <div id="fileBox">
+                            <img src="__ROOT__/Public/Admin/images/head_img.jpg" class="avatar img-circle" />
+                            <input type="file" name="upFile" form="addFrom" id="upFile"/>
+                        </div>
+                        <p style="margin-top: 10px;">&emsp;选 择 更 换 头 像</p>
+                        <!--<input class="span5 inline-input" type="text" name="aaaa" form="addFrom" value="{$list.name}" />-->
+                    </div>
+                </div>
+
+                <!-- edit form column -->
+                <div class="span7 personal-info">
+                    <h5 class="personal-title">个 人 信 息</h5>
+
+                    <form action="{:U('User/addUser')}" method="post" enctype="multipart/form-data" id="addFrom">
+                        <div class="field-box">
+                            <label> 用户名:</label>
+                            <input class="span5 inline-input" type="text" name="name"/>
+                        </div>
+                        <div class="field-box">
+                            <label> 用户账号:</label>
+                            <input class="span5 inline-input" type="text" name="id" id="phone"/>
+                        </div>
+                        <div class="field-box">
+                            <label>联系方式:</label>
+                            <input class="span5 inline-input" type="text" name="tel"/>
+                        </div>
+                        <div class="field-box">
+                            <label>电子邮箱:</label>
+                            <input class="span5 inline-input" id="email" type="email" name="email" value="{$list.email}" autocomplete="on"/>
+                        </div>
+                        <div class="field-box">
+                            <label> 年&emsp;龄:</label>
+                            <input class="span5 inline-input" type="text" name="age" />
+                        </div>
+                        <div class="field-box">
+                            <label> 性&emsp;别:</label>
+                                <label for="nan" style="width: 20px">男：</label><input id="nan" type="radio" name="sex" checked value="1" style="float: left;"/>
+                                <label for="nv" style="width: 20px;margin-left: 30px;">女：</label><input id="nv" type="radio" name="sex" value="1" style="float: left;" />
+                            <br/>
+                        </div>
+                        <div class="field-box">
+                            <label>新密码:</label>
+                            <input class="span5 inline-input" type="password" name="password" autocomplete="on"/>
+                        </div>
+                        <div class="field-box">
+                            <label>确认密码:</label>
+                            <input class="span5 inline-input" type="password" name="confirmPassword" autocomplete="on"/>
+                        </div>
+                        <div class="span6 actions">
+                            <input type="submit" onclick="save()" class="btn-glow primary" value="保存更改" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>
+
+
+<block name="script">
+    <script type="text/javascript">
+        function save(){
+            var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
+            var mobile = $("#phone").val();
+            if(!myreg.test(mobile) || mobile.length==0)
+            {
+                alert('请输入有效的手机号码！');
+                $("form").submit(function(e){e.preventDefault();});//可以阻止表单的默认提交响应
+                return false;
+            }
+            var data = $("input").serializeArray();         //form表单序列化
+            var i=0;
+            for(i;i<data.length;i++){
+                if(data[i]["value"]==""){
+                    alert("信息不完整");
+                    $("form").submit(function(e){e.preventDefault();});//可以阻止表单的默认提交响应
+                    return;
+                }
+            }
+        }
+    </script>
+
+    <script src="__JS__/admin/myInfo.js"></script>
+</block>

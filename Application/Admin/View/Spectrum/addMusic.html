@@ -1,0 +1,51 @@
+<extend name="Public/base" />
+<block name="style">
+    <link type="text/css" rel="stylesheet" href="__CSS__/spectrumShow.css" />
+
+</block>
+<block name="content">
+
+    <div class="container-fluid">
+        <div id="error">{$error}</div>
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header">
+                <h3>乐谱信息：</h3><h5>{$list.m_name}</h5>
+                <input type="submit" form="fileForm" class="btn-flat success pull-right" value="&#43;确定提交">
+            </div>
+        </div>
+        <div id="text">
+            <form action="{:U()}" method="post" name="text" id="fileForm" enctype="multipart/form-data">
+                <div id="left">
+                    <input type="hidden" name="id" value="{$list.m_id}" />
+                    <p style="margin-top: 3px"> <label>乐谱名称：</label><input type="text" name="musicName" value="{$list.m_name}"></p>
+                    <p> <label>作曲者：</label><input type="text" name="author" value="{$list.m_author}"></p>
+                    <p> <label>演奏者：</label><input type="text" name="player" value="{$list.m_player}"></p>
+                    <p> <label>类别：</label>
+                        <select id="musicType" name="m_type">
+                            <volist name="type" id="t">
+                                <eq name="list.m_type" value="$t.ca_id">
+                                    <option selected="selected" value="{$t.ca_id}">{$t.ca_type}</option>
+                                    <else/>
+                                    <option value="{$t.ca_id}">{$t.ca_type}</option>
+                                </eq>
+                            </volist>
+                        </select>
+                    </p>
+                    <p> <label>乐谱文档：</label><input type="file" name="upImg[]"></p>
+                    <p style="width:100%"> <label>乐谱简介：</label><textarea name="introduce" style="width: 80%;height: 45px">{$list.m_intro}</textarea></p>
+                </div>
+                <div id="right">
+                    <img id="showImg" src="{$imgUrl}">
+                    <input id="upImg" class="aaaaaaaaaa" name="upImg[]" type="file" />
+                </div>
+                <div id="down" style="height: 700px">
+                    <textarea id="myEditor" name="news_content" style="width:100%;height:88%;float:left;">{$list.m_score}</textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+</block>
+<block name="script">
+    <script type="text/javascript" src="__JS__/admin/Public.js"></script>
+
+</block>

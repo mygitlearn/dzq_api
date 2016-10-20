@@ -1,0 +1,16 @@
+#title{
+    float: left;
+    width: 400px;
+    margin: -5px 0 0 20px;
+    border: none;
+    border-bottom: 1px solid #DEE3EA;
+    box-shadow: none;
+}
+.header{
+    margin-bottom: 40px;
+}
+.field-box{
+    float: left;
+    margin-bottom: 10px;
+    max-height: 800px;
+}

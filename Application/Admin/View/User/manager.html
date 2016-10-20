@@ -1,0 +1,57 @@
+<extend name="Public/base" />
+<block name="content">
+
+<div class="container-fluid">
+<div id="pad-wrapper" class="users-list">
+<div class="row-fluid header">
+    <h3>管理员列表</h3>
+    <div class="span10 pull-right">
+        <input type="text" class="span5 search" placeholder="请输入用户名或账号" value="<?php echo session('searchCondition')?>"/>
+        <a href="{:U('addUser')}" class="btn-flat success pull-right"><span>&#43;</span>新增管理员</a>
+    </div>
+</div>
+
+<!-- Users table -->
+<div class="row-fluid table">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th class="span4 sortable">用户</th>
+                <th class="span3 sortable"><span class="line"></span>联系方式</th>
+                <th class="span3 sortable"><span class="line"></span>电子邮箱</th>
+                <th class="span2 sortable"><span class="line"></span>最近登录</th>
+                <th class="span2 sortable align-right"><span class="line"></span>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <volist name="_list" id="vo">
+                <tr>
+                    <td>
+                        <img src="{$vo.avatar}" class="img-circle avatar hidden-phone" style="width: 45px;height: 45px;"/>
+                        <!--<a href="#" class="name">{$vo.name}（{$vo.account}）</a>-->
+                        <span style="line-height: 3"> {$vo.name}（{$vo.account}）</span>
+                    </td>
+                    <td>{$vo.phone}</td>
+                    <td>{$vo.email}</td>
+                    <td>{$vo.logo_time}</td>
+                    <td class="align-right">
+                        <a href="{:U('User/delManager?id='.$vo['token'])}" style="color: red">删除</a>
+                    </td>
+                </tr>
+            </volist>
+        </tbody>
+    </table>
+</div>
+<input type="hidden" id="url" value="{:U()}" />
+<div class="pagination pull-right">
+    {$_page}
+</div>
+<!-- end users table -->
+</div>
+</div>
+</block>
+
+
+<block name="script">
+    <script type="text/javascript" src="__JS__/admin/manager.js"></script>
+</block>

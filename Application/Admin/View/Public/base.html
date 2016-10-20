@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="__STATIC__/mstp/css/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="__STATIC__/mstp/css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="__STATIC__/mstp/css/bootstrap/bootstrap-overrides.css" type="text/css" rel="stylesheet" />
+
+    <!-- libraries -->
+    <link href="__STATIC__/mstp/css/lib/jquery-ui-1.10.2.custom.css" rel="stylesheet" type="text/css" />
+
+    <!-- global styles -->
+    <link rel="stylesheet" type="text/css" href="__STATIC__/mstp/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/mstp/css/elements.css" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/mstp/css/icons.css" />
+
+    <!-- this page specific styles -->
+    <link rel="stylesheet" href="__STATIC__/mstp/css/compiled/index.css" type="text/css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="__STATIC__/mstp/css/lib/font-awesome.css" />
+    <link rel="stylesheet" href="__STATIC__/mstp/css/compiled/user-list.css" type="text/css" media="screen" />
+
+    <script src="__STATIC__/mstp/js/jquery-latest.js"></script>
+    <script src="__STATIC__/mstp/js/bootstrap.min.js"></script>
+    <script src="__STATIC__/mstp/js/jquery-ui-1.10.2.custom.min.js"></script>
+    <!-- knob -->
+    <script src="__STATIC__/mstp/js/jquery.knob.js"></script>
+    <!-- flot charts -->
+    <script src="__STATIC__/mstp/js/jquery.flot.js"></script>
+    <script src="__STATIC__/mstp/js/jquery.flot.stack.js"></script>
+    <script src="__STATIC__/mstp/js/jquery.flot.resize.js"></script>
+    <script src="__STATIC__/mstp/js/theme.js"></script>
+    <script src="__STATIC__/ueditor/ueditor.parse.js"></script>
+    <script src="__STATIC__/ueditor/ueditor.config.js"></script>
+    <script src="__STATIC__/ueditor/ueditor.all.js"></script>
+    <script src="__STATIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+    <style type="text/css">
+        .pointer{
+            display: none;
+        }
+        .navLi{
+            cursor: pointer;
+        }
+    </style>
+    <block name="style"></block>
+</head>
+<body>
+<!--头部-->
+<div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+        <button type="button" class="btn btn-navbar visible-phone" id="menu-toggler">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="#" style="display: initial;float: none"><img src="__IMG__/dzqlogo.png" style="height: 45px"/></a>
+        <ul class="nav pull-right">
+            <li class="dropdown " >
+                <a href="#" class="dropdown-toggle hidden-phone" data-toggle="dropdown" style="font-size: 20px">
+                    <i class="icon-user"></i>
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="{:U('User/myInfo')}">个人资料</a></li>
+                    <li><a href="{:U('Public/logo_out')}">退出</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--//左导航-->
+<div id="sidebar-nav">
+    <ul id="dashboard-menu">
+        <li class="navLi">
+            <div class="pointer">
+                <div class="arrow"></div>
+                <div class="arrow_border"></div>
+            </div>
+            <a href="#">
+                <i class="icon-home"></i>
+                <span>Home</span>
+            </a>
+        </li>
+        <li class="navLi">
+            <div class="pointer">
+                <div class="arrow"></div>
+                <div class="arrow_border"></div>
+            </div>
+            <a class="dropdown-toggle" >
+                <i class="icon-group"></i>
+                <span>用户</span>
+                <i class="icon-chevron-down"></i>
+            </a>
+            <ul class="submenu">
+                <li><a href="{:U('User/manager')}">管理员</a></li>
+                <li><a href="{:U('User/personal')}">用户列表</a></li>
+            </ul>
+        </li>
+        <li class="navLi">
+            <div class="pointer">
+                <div class="arrow"></div>
+                <div class="arrow_border"></div>
+            </div>
+            <a class="dropdown-toggle" >
+                <i class="icon-edit"></i>
+                <span>教学</span>
+                <i class="icon-chevron-down"></i>
+            </a>
+            <ul class="submenu">
+                <li><a href="{:U('Teaching/index')}">资料管理</a></li>
+            </ul>
+        </li>
+        <li class="navLi">
+            <div class="pointer">
+                <div class="arrow"></div>
+                <div class="arrow_border"></div>
+            </div>
+            <a class="dropdown-toggle">
+                <i class="icon-th-large"></i>
+                <span>谱库</span>
+                <i class="icon-chevron-down"></i>
+            </a>
+            <ul class="submenu">
+                <li><a href="{:U('Spectrum/index')}">类别</a></li>
+                <li><a href="{:U('Spectrum/music')}">乐谱</a></li>
+            </ul>
+        </li>
+        <li class="navLi">
+            <div class="pointer">
+                <div class="arrow"></div>
+                <div class="arrow_border"></div>
+            </div>
+            <a href="{:U('User/myInfo')}">
+                <i class="icon-cog"></i>
+                <span>我的信息</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<!--内容区域-->
+<div class="content" >
+    <block name="content" ></block>
+</div>
+</body>
+<script src="__STATIC__/mstp/js/layout.js"></script>
+
+<block name="script"></block>
+
+</html>

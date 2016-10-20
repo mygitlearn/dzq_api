@@ -1,0 +1,28 @@
+<extend name="Public/base" />
+<block name="style">
+    <link type="text/css" rel="stylesheet" href="__CSS__/spectrumShow.css" />
+
+</block>
+<block name="content">
+
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header"><h3>乐谱信息：</h3><h5>{$list.m_name}</h5></div>
+        </div>
+        <div id="text">
+            <div id="left">
+                <p style="margin-top: 3px"> <label>乐谱名称：</label><span >{$list.m_name}</span> </p>
+                <p> <label>作曲者：</label><span >{$list.m_author}</span> </p>
+                <p> <label>演奏者：</label><span >{$list.m_player}</span> </p>
+                <p> <label>类别：</label><span >{$list.ca_type}</span> </p>
+                <p> <label>浏览量：</label><span >{$list.m_viewer_count}</span> </p>
+                <p> <label>支持量：</label><span >{$list.m_good_count}</span> </p>
+                <p> <label>乐谱简介：</label><span >{$list.m_name}</span> </p>
+            </div>
+            <div id="right">
+                <img src="{$list.m_avatar}">
+            </div>
+            <div id="down">{$list.m_score}</div>
+        </div>
+    </div>
+</block>

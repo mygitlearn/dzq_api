@@ -1,0 +1,68 @@
+p{
+    margin:0;
+}
+#text{
+    min-height: 400px;
+    margin-left: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#left{
+    width: 60%;
+    height: 255px;
+    overflow: hidden;
+    float: left;
+}
+#right{
+    width: 200px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+#down{
+    width: 100%;
+    min-height: 50px;
+    float: left;
+}
+#left p{
+    width: inherit;
+    float: left;
+    width: 665px;
+}
+#left label{
+    width: 80px;
+    float: left;
+}
+input[type="text"]{
+    margin-bottom: 6px;
+    width: 300px;
+    height: inherit;
+}
+#musicType{
+    margin-bottom: 10px;
+    width: 315px;
+}
+#upImg{
+    width: 65px;
+    height: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+#showImg{
+    width: 100%;
+    height: 100%;
+}
+#error{
+    height: 50px;
+    color: red;
+    text-align: center
+}
+#error_child{
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}

@@ -1,0 +1,15 @@
+[ 2016-05-03T09:13:21+08:00 ] ::1 /dzq_api/index.php/user/get_collect?token=8cc498ff21304b57013bb9ffde5cedf0&page=4&list_rows=5&m_type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-05-03T17:34:00+08:00 ] ::1 /dzq_api/index.php/user/get_collect?token=8cc498ff21304b57013bb9ffde5cedf0&page=4&list_rows=5&m_type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000224s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004071s ]
+
+[ 2016-05-03T17:34:03+08:00 ] ::1 /dzq_api/index.php/user/get_collect?token=8cc498ff21304b57013bb9ffde5cedf0&page=4&list_rows=5&m_type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002190s ]
+

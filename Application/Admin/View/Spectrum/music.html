@@ -1,0 +1,67 @@
+<extend name="Public/base" />
+<block name="style">
+    <link rel="stylesheet" type="text/css" href="__CSS__/spectrumIndex.css" />
+</block>
+<block name="content">
+      <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header">
+                <h3>乐谱</h3>
+                <div class="span10 pull-right">
+                    <input type="text" class="span5 search" placeholder="请输入类别名" value="<?php echo session('searchCondition')?>"/>
+                    <a href="{:U('addMusic')}"><button class="btn-flat success pull-right"><span>&#43;</span>添加乐谱</button></a>
+                </div>
+            </div>
+
+            <!-- Users table -->
+            <div class="row-fluid table">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th class="span1">ID</th>
+                        <th class="span5">音乐</th>
+                        <th class="span2">类名</th>
+                        <th class="span3">作者</th>
+                        <th class="span3">演奏者</th>
+                        <th class="span2">浏览量</th>
+                        <th class="span2">支持量</th>
+                        <th class="span2">存在文档</th>
+                        <th class="span3" style="text-align: center">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="list" id="vo">
+                        <tr>
+                            <td>{$vo.m_id}</td>
+                            <td>
+                                <img src="{$vo.m_avatar}" class="img-circle avatar hidden-phone" style="width: 45px;height: 45px;"/>
+                                <span style="line-height: 3"><a href="{:U('Spectrum/show?i=2&id='.$vo['m_id'])}" >{$vo.m_name}</a></span>
+                            </td>
+                            <td>{$vo.ca_type}</td>
+                            <td>{$vo.m_author}</td>
+                            <td>{$vo.m_player}</td>
+                            <td>{$vo.m_viewer_count}</td>
+                            <td>{$vo.m_good_count}</td>
+                            <td>{$vo.m_file}</td>
+                            <td class="align-right">
+                                <a href="{:U('Spectrum/show?i=1&id='.$vo['m_id'])}" style="color: green">编辑</a> |
+                                <a href="{:U('Spectrum/changeStatus?i=2&id='.$vo['m_id'])}" style="color: red">删除</a>
+                            </td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+            </div>
+            <input type="hidden" id="url" value="{:U()}" />
+            <!-- end users table -->
+            <div class="pagination pull-right">
+                {$_page}
+            </div>
+        </div>
+    </div>
+</block>
+
+
+<block name="script">
+    <script type="text/javascript" src="__JS__/admin/Spectrum.js"></script>
+</block>

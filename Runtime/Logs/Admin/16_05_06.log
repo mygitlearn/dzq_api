@@ -1,0 +1,573 @@
+[ 2016-05-06T18:19:05+08:00 ] ::1 /dzq_api/index.php/Admin/Spectrum/addMusic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016243s ]
+NOTIC: [2048] Declaration of Admin\Controller\SpectrumController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dzq_api\Application\Admin\Controller\SpectrumController.class.php 第 11 行.
+
+[ 2016-05-06T18:19:05+08:00 ] ::1 /dzq_api/index.php/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] Undefined variable: msg D:\wamp\www\dzq_api\Runtime\Cache\Admin\3c5566b2bfbf6ef00ac5366ba47246fe.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011278s ]
+
+[ 2016-05-06T18:19:05+08:00 ] ::1 /dzq_api/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003381s ]
+
+[ 2016-05-06T18:19:14+08:00 ] ::1 /dzq_api/index.php/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002684s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0210s ]
+SQL: SELECT `password` FROM `admin` WHERE `account` = '123456' AND `status` = 1 LIMIT 1   [ RunTime:0.0196s ]
+
+[ 2016-05-06T18:19:14+08:00 ] ::1 /dzq_api/index.php/Admin/Public/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002233s ]
+SQL: SHOW COLUMNS FROM `introduce` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `introduce` LIMIT 1   [ RunTime:0.0188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000921s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004828s ]
+
+[ 2016-05-06T18:19:21+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002567s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0197s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000537s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004374s ]
+
+[ 2016-05-06T18:19:51+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002424s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0326s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0358s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000895s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003447s ]
+
+[ 2016-05-06T18:21:33+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0229s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000513s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000908s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002733s ]
+
+[ 2016-05-06T18:22:08+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003917s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0405s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0219s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000830s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004372s ]
+
+[ 2016-05-06T18:22:19+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002793s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0216s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000524s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000973s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005109s ]
+
+[ 2016-05-06T18:22:36+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0287s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0203s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000818s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005805s ]
+
+[ 2016-05-06T18:22:54+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003822s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0277s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0236s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000869s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016555s ]
+
+[ 2016-05-06T18:23:00+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003343s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0212s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0176s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000492s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000901s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002587s ]
+
+[ 2016-05-06T18:30:16+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003242s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0197s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000617s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005737s ]
+
+[ 2016-05-06T18:30:27+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004926s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0401s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000955s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003406s ]
+
+[ 2016-05-06T18:30:36+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0331s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000519s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000955s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003495s ]
+
+[ 2016-05-06T18:30:39+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004056s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0239s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003739s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014285s ]
+
+[ 2016-05-06T18:30:44+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0497s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0246s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000871s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005787s ]
+
+[ 2016-05-06T18:30:49+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005087s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0198s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000895s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005099s ]
+
+[ 2016-05-06T18:30:55+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004065s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0254s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0311s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000936s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018655s ]
+
+[ 2016-05-06T18:31:03+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003183s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0309s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0401s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000539s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002373s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006419s ]
+
+[ 2016-05-06T18:32:03+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1425s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.4919s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.2176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000519s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000942s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004695s ]
+
+[ 2016-05-06T18:32:22+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000551s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003627s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0203s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002611s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014262s ]
+
+[ 2016-05-06T18:33:02+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003418s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0189s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006921s ]
+
+[ 2016-05-06T18:33:05+08:00 ] ::1 /dzq_api/index.php/Admin/User/manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004284s ]
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\dzq_api\Application\Admin\Controller\UserController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0207s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0191s ]
+SQL: SELECT `id`,`name`,`account`,`password`,`token`,`avatar`,`age`,`sex`,`phone`,`email`,`status`,`logo_time` FROM `admin` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000988s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001727s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004144s ]
+

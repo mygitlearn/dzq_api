@@ -1,0 +1,24 @@
+<extend name="Public/base" />
+<block name="style">
+    <link type="text/css" rel="stylesheet" href="__CSS__/editCourse.css" />
+    <style type="text/css">
+        #text{
+            min-height: 400px;
+            max-height: 480px;
+            overflow-y: scroll;
+            padding: 0 25px;
+        }
+
+    </style>
+</block>
+<block name="content">
+
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header"><h3>授课章节：{$list.title}</h3></div>
+        </div>
+        <div id="text">
+            {$list.content}
+        </div>
+    </div>
+</block>
